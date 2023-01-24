@@ -110,7 +110,7 @@ export const Qualification = () => {
                             </div>
 
                             <div>
-                                <h3 className="qualification__title">Programación con enfasis en app Web</h3>
+                                <h3 className="qualification__title">Programación con énfasis en app Web</h3>
                                 <span className="qualification__subtitle">
                                     Universidad Pontificia Bolivariana
                                 </span>
