@@ -58,9 +58,9 @@ export const Data = () => {
             </h1>
 
             <h3 className="home__subtitle">Visual Designer</h3>
-            <p className="home__description">I am a creative developer living in Colombia, and I am very passionate and dedicated to my work.</p>
+            <p className="home__description">Actualmente enfocado en el lenguaje de JavaScript, estoy continuamente aprendiendo y adquiriendo nuevas habilidades en función a las actuales y futuras demandas y tendencias tecnológicas en el campo del diseño y desarrollo de aplicaciones web en general.</p>
 
-            <a href="#Contact" className="button button--flex">
+            <a href="#contact" className="button button--flex">
                 Say Hello
                 <svg
                   class="button__icon"

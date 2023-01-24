@@ -17,9 +17,7 @@ export const About = () => {
                     <Info />
 
                     <p className="about__description">
-                        Frontend developer, I create web pages with UI / UX user interface,
-                        I have years of experience and many clients are happy with the
-                        projects carried out.
+                    Desarrollador frontend, creo páginas web con interfaz de usuario UI/UX, tengo un año de experiencia como freelancer y clientes contentos con los proyectos realizados.
                     </p>
 
                     <a download="" href={CV} className="button button--flex">
