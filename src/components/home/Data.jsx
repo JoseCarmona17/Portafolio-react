@@ -61,7 +61,7 @@ export const Data = () => {
             <p className="home__description">Enfocado en el lenguaje de JavaScript, continuamente estoy adquiriendo nuevas habilidades en función a las actuales y futuras demandas relacionadas con el Frontend y tendencias tecnológicas en el campo del diseño y desarrollo de aplicaciones web en general.</p>
 
             <a href="#contact" className="button button--flex">
-                Say Hello
+                Saludar
                 <svg
                   class="button__icon"
                   xmlns="http://www.w3.org/2000/svg"
