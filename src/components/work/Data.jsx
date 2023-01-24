@@ -3,6 +3,7 @@ import  Work2  from "../../assets/work2.png";
 import  Work3  from "../../assets/work3.png";
 import  Work4  from "../../assets/work4.png";
 import  Work5  from "../../assets/work5.png";
+import  Work6  from "../../assets/work6.png";
 
 export const projectsData = [
     {
@@ -29,13 +30,20 @@ export const projectsData = [
     {
         id: 4,
         image: Work4,
-        title: "APinocho Card",
+        title: "Pinocho Card",
         category: "app",
         link: "https://pinocho-cards-jdloc.netlify.app",
     },
     {
         id: 5,
         image: Work5,
+        title: "Movie trailers App",
+        category: "app",
+        link: "https://movie-trailers-app.netlify.app/",
+    },
+    {
+        id: 5,
+        image: Work6,
         title: "Pokedex App",
         category: "app",
         link: "https://pokedex-pie-08adad.netlify.app",
