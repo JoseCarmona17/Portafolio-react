@@ -14,12 +14,12 @@ export const Contact = () => {
 
     return (
         <section>
-            <h2 className="section__title">Contact Me</h2>
-            <span className="section__subtitle">Get in touch</span>
+            <h2 className="section__title">Contacto</h2>
+            <span className="section__subtitle">Ponerse en contacto</span>
 
             <div className="contact__container container grid">
                 <div className="contact__content">
-                    <h3 className="contact__title">Talk to me</h3>
+                    <h3 className="contact__title">Escribeme</h3>
 
                     <div className="contact__info">
                         <div className="contact__card">
@@ -30,7 +30,7 @@ export const Contact = () => {
 
                             <a href="mailto:joseandresdelaossa@gmail.com.com
 " className="contact__button" target="_black">
-                                Write me
+                                Ecríbeme
                                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                             </a>
                         </div>
@@ -42,7 +42,7 @@ export const Contact = () => {
                             <span className="cantact__card-data">+57 3016034158<br></br></span>
 
                             <a href="https://api.whatsapp.com/send?phone=3016034158&text=Hello, more information!" className="contact__button" target="_black">
-                                Write me
+                                Escríbeme
                                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                             </a>
                         </div>
@@ -54,7 +54,7 @@ export const Contact = () => {
                             <span className="cantact__card-data">Jose de la Ossa<br /></span>
 
                             <a href="https://www.facebook.com/jose.delaossa.1485/about_overview" className="contact__button" target="_black">
-                                Write me
+                                Escríbeme
                                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                             </a>
                         </div>
@@ -62,7 +62,7 @@ export const Contact = () => {
                 </div>
 
                 <div className="contact__content">
-                    <h3 className="contact__title">Write me your project</h3>
+                    <h3 className="contact__title">Escríbeme sobre tu proyecto</h3>
 
                     <from ref={form} onSubmit={sendEmail}
                         className="contact__form">
