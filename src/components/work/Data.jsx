@@ -42,7 +42,7 @@ export const projectsData = [
         link: "https://movie-trailers-app.netlify.app/",
     },
     {
-        id: 5,
+        id: 6,
         image: Work6,
         title: "Pokedex App",
         category: "app",
