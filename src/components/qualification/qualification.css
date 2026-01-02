@@ -18,6 +18,7 @@
 
 .qualification__button:hover {
     color: var(--title-color-dark);
+    font-size: calc(var(--small-font-size) + 8px);
 }
 
 .qualification__icon {

@@ -1,8 +1,11 @@
-.skills__container{
-    grid-template-columns: repeat(2, 300px);
-    column-gap: 3rem;
+.skills__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 3rem;
     justify-content: center;
 }
+
+
 
 .skills__content{
     background-color: var(--container-color);

@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import AboutImg from "../../assets/profile.jpg";
-import CV from "../../assets/Curriculum Jose de la Ossa C.pdf";
+import CV from "../../assets/Curriculum.pdf";
 import { Info } from "./Info";
 
 export const About = () => {
@@ -17,7 +17,7 @@ export const About = () => {
                     <Info />
 
                     <p className="about__description">
-                    Desarrollador frontend, creo páginas web con interfaz de usuario UI/UX, tengo un año de experiencia y clientes contentos con los proyectos realizados.
+                    Fuerte comunicador, atención al detalle, actitud creativa, imaginativo, flexible y positivo. 
                     </p>
 
                     <a download="" href={CV} className="button button--flex">

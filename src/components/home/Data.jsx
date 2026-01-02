@@ -57,8 +57,8 @@ export const Data = () => {
                 </svg>
             </h1>
 
-            <h3 className="home__subtitle">Front-end Developer</h3>
-            <p className="home__description">Enfocado en el lenguaje de JavaScript, continuamente estoy adquiriendo nuevas habilidades en función a las actuales y futuras demandas relacionadas con el Frontend y tendencias tecnológicas en el campo del diseño y desarrollo de aplicaciones web en general.</p>
+            <h3 className="home__subtitle">Ingeniero de Software</h3>
+            <p className="home__description">Soy desarrollador web con interés en la ciencia de datos. Me encuentro en constante aprendizaje de nuevas tecnologías, trabajando tanto en el desarrollo de aplicaciones web como en el análisis de datos, visualización y modelos de machine learning para resolver problemas reales.</p>
 
             <a href="#contact" className="button button--flex">
                 Saludar

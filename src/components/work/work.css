@@ -21,9 +21,11 @@
 }
 
 .work__container{
-    grid-template-columns: repeat(2, max-content);
-    gap: 3rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 2rem;
     justify-content: center;
+
 }
 
 .work__card{
@@ -33,11 +35,19 @@
     border-radius: 1rem;
 }
 
-.work__img{
-    width: 295px;
-    border-radius: 1rem;
-    margin-bottom: var(--mb-1);
+.work__img {
+  width: 295px;
+  border-radius: 1rem;
+  margin-bottom: var(--mb-1);
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
+
+.work__img:hover {
+  transform: scale(1.05);
+  filter: brightness(0.8);
+}
+
 
 .work__title{
     font-size: var(--normal-font-size);
@@ -45,22 +55,31 @@
     margin-bottom: var(--mb-0-5);
 }
 
-.work__button{
+.work__button {
     color: var(--text-color);
     font-size: var(--small-font-size);
     display: flex;
     align-items: center;
     column-gap: 0.25rem;
+    transition: all 0.3s ease;
+    padding-top: 0.5rem;
+}
+
+.work__button:hover {
+    font-size: calc(var(--small-font-size) + 3px);
+    color: #000;
 }
 
 .work__button-icon{
-    font-size: 1rem;
+    font-size: 1.5rem;
     transition: 0.4s;
 }
 
 .work__button:hover .work__button-icon{
     transform: translate(0.25rem);
+    color:  var(--title-color);
 }
+
 
 /*active work*/
 .active__work{

@@ -48,6 +48,26 @@ export const Qualification = () => {
                                 : "qualification__content"
                         }
                     >
+
+                        <div className="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 className="qualification__title">Data Science</h3>
+                                <span className="qualification__subtitle">
+                                    Bit - Bogotá Institute of Technology
+                                </span>
+                                <div className="qualification__calender">
+                                    <i className="uil uil-calendar-alt"></i> 2025 - Present
+                                </div>
+                            </div>
+                        </div>
+                        
                         <div className="qualification__data">
                             <div>
                                 <h3 className="qualification__title">Ingeniería de Software</h3>
@@ -74,24 +94,24 @@ export const Qualification = () => {
                             </div>
 
                             <div>
-                                <h3 className="qualification__title">Principiante en Programación</h3>
+                                <h3 className="qualification__title">Python, Data Science en OCI y Oracle Analytics</h3>
                                 <span className="qualification__subtitle">
                                     Oracle - Alura latam
                                 </span>
                                 <div className="qualification__calender">
-                                    <i className="uil uil-calendar-alt"></i> 2022 - 2023
+                                    <i className="uil uil-calendar-alt"></i> 2023 - 2023
                                 </div>
                             </div>
                         </div>
 
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title">JavaScript</h3>
+                                <h3 className="qualification__title">Programa Oracle Next Education F2 T4 Back-end con Java</h3>
                                 <span className="qualification__subtitle">
-                                    Udemy
+                                    Oracle - Alura latam
                                 </span>
                                 <div className="qualification__calender">
-                                    <i className="uil uil-calendar-alt"></i> 2022 - 2022
+                                    <i className="uil uil-calendar-alt"></i> 2022 - 2023
                                 </div>
                             </div>
 
@@ -128,15 +148,16 @@ export const Qualification = () => {
                                 : "qualification__content"
                         }
                     >
+
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title">Freelance</h3>
-                                <span className="qualification__subtitle">Independiente</span>
+                                <h3 className="qualification__title">Desarrollador Front - Freelance</h3>
+                                <span className="qualification__subtitle">smartlytic - Colombia</span>
                                 <div className="qualification__calender">
-                                    <i className="uil uil-calendar-alt"></i> 2022 - actualmente
+                                    <i className="uil uil-calendar-alt"></i> 2024 - 2024
                                 </div>
                             </div>
-                            
+
                             <div>
                                 <span className="qualification__rounder"></span>
                                 <span className="qualification__line"></span>
@@ -152,7 +173,38 @@ export const Qualification = () => {
                             </div>
 
                             <div>
-                                <h3 className="qualification__title">desarrollador Web</h3>
+                                <h3 className="qualification__title">Desarrollador Front - Freelance</h3>
+                                <span className="qualification__subtitle">MonaLisa EAC - Colombia</span>
+                                <div className="qualification__calender">
+                                    <i className="uil uil-calendar-alt"></i> 2024 - 2024
+                                </div>
+                            </div>
+                        </div>
+                        <div className="qualification__data">
+                            <div>
+                                <h3 className="qualification__title">Freelance</h3>
+                                <span className="qualification__subtitle">Independiente</span>
+                                <div className="qualification__calender">
+                                    <i className="uil uil-calendar-alt"></i> 2022 - actualmente
+                                </div>
+                            </div>
+
+                            <div>
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <div className="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 className="qualification__title">Desarrollador Web - Full Stack</h3>
                                 <span className="qualification__subtitle">Solar Communications S.A.S - Colombia</span>
                                 <div className="qualification__calender">
                                     <i className="uil uil-calendar-alt"></i> 2022 - 2022

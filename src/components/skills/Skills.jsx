@@ -2,6 +2,7 @@ import React from 'react';
 import "./skills.css";
 import {Frontend} from './Frontend';
 import {Backend} from './Backend';
+import { Data } from './Data';
 
 export const Skills = () => {
   return (
@@ -13,6 +14,8 @@ export const Skills = () => {
         <Frontend/>
 
         <Backend/>
+
+        <Data/>
       </div>
     </section>
   )

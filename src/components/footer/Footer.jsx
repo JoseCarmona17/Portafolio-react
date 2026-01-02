@@ -31,9 +31,6 @@ export const Footer = () => {
                         <i className='uil uil-github-alt'></i>
                     </a>
                 </div>
-
-                <span className='footer__copy'>&#169; Crypticalcoder. All rigths reserved
-</span>
             </div>
         </footer>
     )

@@ -1,17 +1,18 @@
 import React from 'react'
 
-export const Frontend = () => {
-  return (
-    <div className="skills__content">
-        <h3 className="skills__title">Frontend Developer</h3>
+export const Data = () => {
+    return (
+        <div className="skills__content">
+            <h3 className="skills__title">Data Science</h3>
 
-        <div className="skills__box">
+            
+            <div className="skills__box">
             <div className="skills__group">
                 <div className="skills__data">
                     <i className="bx bx-badge-check"></i>
 
                     <div>
-                        <h3 className="skills__name">HTML 5</h3>
+                        <h3 className="skills__name">Python</h3>
                         <span className="skills__level">Avanzado</span>
                     </div>
                 </div>
@@ -20,7 +21,7 @@ export const Frontend = () => {
                     <i className="bx bx-badge-check"></i>
 
                     <div>
-                        <h3 className="skills__name">CSS</h3>
+                        <h3 className="skills__name">SQL</h3>
                         <span className="skills__level">Intermedio</span>
                     </div>
                 </div>
@@ -29,8 +30,8 @@ export const Frontend = () => {
                     <i className="bx bx-badge-check"></i>
 
                     <div>
-                        <h3 className="skills__name">JavaScript</h3>
-                        <span className="skills__level">Avanzado</span>
+                        <h3 className="skills__name">Pandas</h3>
+                        <span className="skills__level">Intermedio</span>
                     </div>
                 </div>
             </div>
@@ -40,16 +41,7 @@ export const Frontend = () => {
                     <i className="bx bx-badge-check"></i>
 
                     <div>
-                        <h3 className="skills__name">Tailwind</h3>
-                        <span className="skills__level">Avanzado</span>
-                    </div>
-                </div>
-
-                <div className="skills__data">
-                    <i className="bx bx-badge-check"></i>
-
-                    <div>
-                        <h3 className="skills__name">Git</h3>
+                        <h3 className="skills__name">Scikit-learn</h3>
                         <span className="skills__level">Intermedio</span>
                     </div>
                 </div>
@@ -58,12 +50,23 @@ export const Frontend = () => {
                     <i className="bx bx-badge-check"></i>
 
                     <div>
-                        <h3 className="skills__name">React</h3>
-                        <span className="skills__level">Avanzado</span>
+                        <h3 className="skills__name">Matplotlib</h3>
+                        <span className="skills__level">Intermedio</span>
+                    </div>
+                </div>
+
+                <div className="skills__data">
+                    <i className="bx bx-badge-check"></i>
+
+                    <div>
+                        <h3 className="skills__name">Seaborn</h3>
+                        <span className="skills__level">Intermedio</span>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-  )
+
+
+        </div>
+    )
 }

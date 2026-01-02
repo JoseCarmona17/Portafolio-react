@@ -5,15 +5,26 @@ import './contact.css'
 export const Contact = () => {
     const form = useRef();
 
-    const sendEmail = (e) => {
+    const sendEmail = async (e) => {
         e.preventDefault();
-
-        emailjs.sendForm('service_k658049', 'template_ri2hl1i', form.current, 'd2cZeb22y8XkD-Lyo')
-        e.target.reset();
+    
+        try {
+            const result = await emailjs.sendForm(
+                'service_lwynkaa',
+                'template_lgm9eua',
+                form.current,
+                'UD-tVDDB-5VxoRKMx'
+            );
+            console.log('Correo enviado:', result.text);
+            e.target.reset();
+        } catch (error) {
+            console.error('Error al enviar el correo:', error);
+            alert('No se pudo enviar el correo. Verifica tu configuración.');
+        }
     };
 
     return (
-        <section>
+        <section id='contact'>
             <h2 className="section__title">Contacto</h2>
             <span className="section__subtitle">Ponerse en contacto</span>
 
@@ -64,25 +75,25 @@ export const Contact = () => {
                 <div className="contact__content">
                     <h3 className="contact__title">Escríbeme sobre tu proyecto</h3>
 
-                    <from ref={form} onSubmit={sendEmail}
+                    <form ref={form} onSubmit={sendEmail}
                         className="contact__form">
                         <div className="contact__form-div">
                             <label className="contact__form-tag">Nombre</label>
-                            <input type="text" name="name"
+                            <input type="text" name="to_name"
                                 className='contact__form-input'
                                 placeholder='Ingrese su nombre' />
                         </div>
 
                         <div className="contact__form-div">
                             <label className="contact__form-tag">Email</label>
-                            <input type="email" name="email"
+                            <input type="email" name="from_name"
                                 className='contact__form-input'
                                 placeholder='Ingrese su correo' />
                         </div>
 
                         <div className="contact__form-div contact__form-area">
                             <label className="contact__form-tag">Projecto</label>
-                            <textarea name="project" cols="30" rows="10"
+                            <textarea name="message" cols="30" rows="10"
                                 className='contact__form-input' placeholder='Sobre tu proyecto'></textarea>
                         </div>
 
@@ -107,7 +118,7 @@ export const Contact = () => {
                             </svg>
                         </button>
 
-                    </from>
+                    </form>
                 </div>
             </div>
         </section>

@@ -30,7 +30,7 @@ export const Services = () => {
               <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
               <h3 className="services__modal-title">Product Designer</h3>
-              <p className="services__modal-description">Servicios con más de 1 años de experiencia. Proporcionar un trabajo de calidad a clientes y empresas.</p>
+              <p className="services__modal-description">Servicios con más de 2 años de experiencia. Proporcionar un trabajo de calidad a clientes y empresas.</p>
 
               <ul className="services__modal-services grid">
               <li className="services__modal-service">
@@ -66,7 +66,7 @@ export const Services = () => {
           </div>
         </div>
 
-        <div className="services__content">
+        {/* <div className="services__content">
           <div>
             <i className="uil uil-arrow services__icon"></i>
             <h3 className="services__title">Ui/Ux <br/> Designer</h3>
@@ -124,7 +124,7 @@ export const Services = () => {
               </ul>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="services__content">
           <div>
