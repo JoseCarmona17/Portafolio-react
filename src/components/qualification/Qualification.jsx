@@ -151,10 +151,10 @@ export const Qualification = () => {
 
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title">Desarrollador Front - Freelance</h3>
-                                <span className="qualification__subtitle">smartlytic - Colombia</span>
+                                <h3 className="qualification__title">Project Manager en el departamento de R&D</h3>
+                                <span className="qualification__subtitle">Deinsa Global</span>
                                 <div className="qualification__calender">
-                                    <i className="uil uil-calendar-alt"></i> 2024 - 2024
+                                    <i className="uil uil-calendar-alt"></i> 2026 - actualmente
                                 </div>
                             </div>
 
@@ -174,7 +174,7 @@ export const Qualification = () => {
 
                             <div>
                                 <h3 className="qualification__title">Desarrollador Front - Freelance</h3>
-                                <span className="qualification__subtitle">MonaLisa EAC - Colombia</span>
+                                <span className="qualification__subtitle">smartlytic - Colombia</span>
                                 <div className="qualification__calender">
                                     <i className="uil uil-calendar-alt"></i> 2024 - 2024
                                 </div>
@@ -182,10 +182,10 @@ export const Qualification = () => {
                         </div>
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title">Freelance</h3>
-                                <span className="qualification__subtitle">Independiente</span>
+                                <h3 className="qualification__title">Desarrollador Front - Freelance</h3>
+                                <span className="qualification__subtitle">MonaLisa EAC - Colombia</span>
                                 <div className="qualification__calender">
-                                    <i className="uil uil-calendar-alt"></i> 2022 - actualmente
+                                    <i className="uil uil-calendar-alt"></i> 2024 - 2024
                                 </div>
                             </div>
 

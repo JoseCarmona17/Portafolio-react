@@ -17,7 +17,7 @@ export const About = () => {
                     <Info />
 
                     <p className="about__description">
-                    Fuerte comunicador, atención al detalle, actitud creativa, imaginativo, flexible y positivo. 
+                    Me caracterizo por el aprendizaje continuo, la capacidad de adaptación y el interés por construir soluciones tecnológicas funcionales, escalables y enfocadas en resolver problemas reales. 
                     </p>
 
                     <a download="" href={CV} className="button button--flex">

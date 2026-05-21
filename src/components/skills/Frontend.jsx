@@ -11,7 +11,7 @@ export const Frontend = () => {
                     <i className="bx bx-badge-check"></i>
 
                     <div>
-                        <h3 className="skills__name">HTML 5</h3>
+                        <h3 className="skills__name">React.js</h3>
                         <span className="skills__level">Avanzado</span>
                     </div>
                 </div>
@@ -20,7 +20,7 @@ export const Frontend = () => {
                     <i className="bx bx-badge-check"></i>
 
                     <div>
-                        <h3 className="skills__name">CSS</h3>
+                        <h3 className="skills__name">JavaScript</h3>
                         <span className="skills__level">Intermedio</span>
                     </div>
                 </div>
@@ -29,7 +29,7 @@ export const Frontend = () => {
                     <i className="bx bx-badge-check"></i>
 
                     <div>
-                        <h3 className="skills__name">JavaScript</h3>
+                        <h3 className="skills__name">Responsive Design</h3>
                         <span className="skills__level">Avanzado</span>
                     </div>
                 </div>
@@ -40,16 +40,7 @@ export const Frontend = () => {
                     <i className="bx bx-badge-check"></i>
 
                     <div>
-                        <h3 className="skills__name">Tailwind</h3>
-                        <span className="skills__level">Avanzado</span>
-                    </div>
-                </div>
-
-                <div className="skills__data">
-                    <i className="bx bx-badge-check"></i>
-
-                    <div>
-                        <h3 className="skills__name">Git</h3>
+                        <h3 className="skills__name">Next.js</h3>
                         <span className="skills__level">Intermedio</span>
                     </div>
                 </div>
@@ -58,7 +49,16 @@ export const Frontend = () => {
                     <i className="bx bx-badge-check"></i>
 
                     <div>
-                        <h3 className="skills__name">React</h3>
+                        <h3 className="skills__name">TypeScript</h3>
+                        <span className="skills__level">Intermedio</span>
+                    </div>
+                </div>
+
+                <div className="skills__data">
+                    <i className="bx bx-badge-check"></i>
+
+                    <div>
+                        <h3 className="skills__name">Tailwind CSS</h3>
                         <span className="skills__level">Avanzado</span>
                     </div>
                 </div>
